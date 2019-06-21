@@ -1,6 +1,7 @@
 def my_each(array)
   #initiated a counter
   index = 0
+  
   #created a while loop that iterates through all our elements in our array 
   while index < array.size do 
     #do something to the element in our array
@@ -12,6 +13,9 @@ def my_each(array)
   #return our array
   array 
 end
+
+
+
 
 collection = [1, 2, 3, 4]
 
