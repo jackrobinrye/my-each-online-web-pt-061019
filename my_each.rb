@@ -4,8 +4,11 @@ def my_each(array)
     #do something to the element in our array
     yield(array[index])
     #continue counter
+    index += 1
+  end 
     
-    #return our array
+  #return our array
+  
 end
 
 collection = [1, 2, 3, 4]
